@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
     res.render('home.pug', {
   });
 });
-//Testing change
+//Testing
 
 app.listen(8080);
 module.exports.getApp = app;
